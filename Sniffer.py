@@ -1,8 +1,6 @@
 import socket
 import struct
 
-# GRUPO: Kelryson Wendrix, Lucas Anderson, Marcelo Maia e Victor Guilherme.
-
 def main():
 
     s = socket.socket(socket.AF_PACKET, socket.SOCK_RAW, socket.htons(3))
